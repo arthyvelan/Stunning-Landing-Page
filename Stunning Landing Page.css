@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-around; /* Spacing inside the header content  */
+    flex-direction: row; /* Display the header content in y direction */
+    align-items: center; /* it will allign the text in y axis */
+    height: 60px;
+    padding: 25px;
+    margin: 15px;
+
+}
+.uraccount{
+    background-color: palevioletred;
+    border-radius: 15px;
+    padding: 10px;
+    color: blue;
+}
+.logo.img{
+    size: 10px;
+    margin-left: 10px;
+}
+ul{
+    display:flex ;
+    margin-left: 200px;
+    
+}
+span{
+    padding: 15px;
+    color: grey;
+
+}
+span:hover{ /* add the hover effect on menu items. On hover, the menu items should get the underline. */
+    text-decoration: underline;
+    border-bottom: 2px solid: blue ;
+    color: black;
+}
+main{
+    display: flex; /* Display the content inside the main in a row manner */
+    justify-content: center;
+}
+img{
+    max-width: 750px;
+    height: auto;
+}
+.Left{
+    padding: 40px;
+}
+h1{
+    font-size: 70px;
+    color: black;
+    text-align: left;
+    margin-left: 150px;
+    
+
+}
+p{
+    font-size: 15px;
+    text-align: left;
+    color: gray;
+    margin-left: 150px;
+    margin-top: 20px ;
+
+}
+.logo{
+    font: size 30px; ;
+}
+.segment{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px ;
+    
+}
+.up:hover{
+    background-color: rgb(231, 245, 245);
+}
+.down:hover{
+    background-color: rgb(231, 245, 245);
+}
+.newaccount{
+    background-color: rgb(88, 16, 204);
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    width: 30%;
+}
+.container{
+    display: block;
+    margin: 10%;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 70%;
+}
+.card{
+    background-color: rgb(245, 242, 242);
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+.blue{
+    display: none;
+    
+}
+.ticking{
+    display: flex;
+    /* width: 20%; */
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.card:hover .blue{
+    display: inline;
+}
+.card:hover .grey{
+    display: none;
+}
+.card:hover{
+    background-color:whitesmoke;
+}
+h3{
+    text-align: left;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+
+}
